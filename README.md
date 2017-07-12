@@ -1,5 +1,5 @@
 # GFF_Intersector
-A program witten in R that is capable of intersecting a .GFF file with a chosen flanking region and large files containg genomic co-ordinates from multiple experiments and visualising the intersections genome wide as well as producing individual region plots and quantification of the intersections. 
+An R program capable of intersecting a .GFF file with a chosen flanking region and large files containg genomic co-ordinates from multiple experiments and visualising the intersections genome wide as well as producing individual region plots and quantification of the intersections. 
 
 # Prerequsites
 
