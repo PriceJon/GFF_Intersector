@@ -5,12 +5,31 @@ An R program capable of intersecting a .GFF file with a chosen flanking region a
 
 R programming language
 
+The program also relies on a numer of R libraries, although install proceedures are included you can check before and install manually. 
 
+  library(shiny)
+
+  library("ggrepel")
+
+  library(gplots)
+
+  library(RColorBrewer)
+
+  library("GenomicRanges")
+
+  library("DT")
+
+  library("ggplot2")
+
+  library("ggbio")
 
 
 # Running
 
-Currently, the easiest way to run GFF intersectory is to open "gff_intersector.R" within RStudio and "runapp". This will be fixed soon. 
+library(shiny)
+shiny::runGitHub('GFF_Intersector','PriceJon')
+
+
 
 Currently only GFF files are accepted along with another file containing at least chromsome, start, stop and a unique ID columns contained within the first 10 columns. 
 
