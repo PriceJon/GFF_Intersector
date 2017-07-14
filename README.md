@@ -41,9 +41,9 @@ Instructions are available whilst using the program.
 
 # Updates
 
-This is an active development and new features will be added monthly.
+This is an active development and new features will be added:
 
-- Quantification of bases intersected in the upstream/downstream/genic/IG etc regions. 
+- Quantification of bases intersected in the upstream/downstream/genic/IG regions. 
 
 - The ability to separate different experiment based on their ID and analyse spearately
 
