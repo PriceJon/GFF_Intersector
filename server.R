@@ -170,7 +170,7 @@ server <- function(input, output) {
   })
   output$start2 = renderPrint({
     print("chr       start         end ")
-    paste(table2()[,as.numeric(input[["chr2"]])][1], table2()[,as.numeric(input[["start2"]])][1],table2()[,as.numeric(input[["end2"]])][1],table1()[,as.numeric(input[["ID2"]])][1],sep = "     ")
+    paste(table2()[,as.numeric(input[["chr2"]])][1], table2()[,as.numeric(input[["start2"]])][1],table2()[,as.numeric(input[["end2"]])][1],table2()[,as.numeric(input[["ID2"]])][1],sep = "     ")
   })
   
   
