@@ -7,7 +7,7 @@
 
 #---------------------------------------
 #load libraries
-options(shiny.maxRequestSize=200*1024^2) 
+options(shiny.maxRequestSize=200*1024^4) 
 
 if (!require("shiny")) {
   install.packages("shiny", dependencies = TRUE)
