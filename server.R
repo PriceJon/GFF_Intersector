@@ -114,7 +114,7 @@ server <- function(input, output) {
     gff <- gffRead(input$file1$datapath)
     #make GFF usable
     gff = gff[gff[,3] == "exon",]
-    gff$id = sapply(gff$attributes,FUN = getAttributeField,"Parent")
+    gff$id = sapply(gff$attributes,FUN = getAttributeField,"gene_id")
     gff
     
   })
